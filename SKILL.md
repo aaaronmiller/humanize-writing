@@ -1,377 +1,303 @@
 ---
 name: humanize-writing
-description: Comprehensive system for improving writing authenticity, voice, and quality. Use when user wants to make writing sound more natural, develop distinctive voice, improve prose rhythm, eliminate generic/formulaic patterns, or transform flat drafts into engaging authentic writing. Triggers include requests to improve writing quality, develop voice, make writing more engaging, reduce generic tone, or enhance authenticity. Applicable to AI-assisted drafts, committee-written content, or any prose lacking personality.
+description: Transform AI-generated writing into natural, human-like prose by removing AI patterns, clichés, and awkward constructs. Use when writing content that needs to sound authentically human, avoid robotic phrasing, improve tone and voice, or detect and eliminate AI tells (overused transitions, passive voice patterns, formal hedging language). Includes AI vocabulary blacklists, sentence pattern guides, rhythm techniques, and validation checklists for all content types.
 ---
 
-# Humanize Writing Skill
+# Humanize Writing System
 
-Transform generic, formulaic prose into authentic, engaging writing through systematic improvement of vocabulary precision, structural variety, and stylistic distinctiveness.
+Transform AI-generated or formulaic writing into natural, human-like prose that reads as authentically authored.
 
-## Purpose & Scope
+## Core Framework
 
-This skill improves writing quality by addressing patterns that make prose feel generic, flat, or impersonal—whether those patterns originate from AI assistance, committee authorship, template-based writing, or underdeveloped craft.
+### What "Humanizing" Means
 
-**Primary Goal:** Produce better, more authentic writing  
-**Secondary Effect:** Writing improved by these techniques naturally resists AI detection
+This system removes three categories of AI tells:
 
-**This skill is NOT designed for:**
-- Misrepresenting authorship
-- Academic dishonesty
-- Violating disclosure requirements
-- Deceiving readers about content origin
+1. **Vocabulary tells** - Overused transitions, hedging language, marketing clichés
+2. **Pattern tells** - Repetitive sentence structures, excessive passive voice, artificial rhythm
+3. **Tone tells** - Overly formal register, lack of personal voice, generic enthusiasm
+
+The result maintains meaning, accuracy, and professionalism while sounding genuinely human-written.
 
 ## Quick Start
 
-1. Analyze input text for quality issues (vocabulary, structure, rhythm)
-2. Apply targeted improvements across three dimensions: lexical, structural, stylistic
-3. Validate output authenticity
-4. Iterate based on validation feedback
+### For Analyzing Text
 
-## Ethical Framework
+Ask Claude to:
+```
+Analyze this text using the humanize-writing validation checklist:
 
-### Legitimate Uses
+[paste text]
 
-- **Polishing AI-assisted drafts:** Improving content you've created with AI collaboration
-- **Developing your voice:** Using techniques to strengthen your personal writing style
-- **Improving clarity:** Making committee-written or template-based content more engaging
-- **Learning craft:** Understanding what makes writing feel authentic to improve skills
-- **Professional editing:** Improving client work within agreed terms
+Focus on: [vocabulary/structure/voice]
+```
 
-### Illegitimate Uses
+### For Improving Text
 
-- **Academic fraud:** Submitting AI-written work as solely your own where prohibited
-- **Professional misrepresentation:** Violating contractual or employer AI-use policies
-- **Deceptive attribution:** Claiming sole authorship where disclosure is expected
-- **Bypassing vetting:** Circumventing legitimate content review processes
+Ask Claude to:
+```
+Please humanize this text:
 
-### Context-Specific Guidance
+[paste text]
 
-| Context | Recommended Approach |
-|---------|---------------------|
-| Academic | Disclose AI use per institution policy; focus on learning, not evasion |
-| Professional | Follow employer AI policies; when uncertain, ask |
-| Commercial | Check client expectations; many accept AI-assisted content |
-| Personal | Full freedom; improve your writing however you choose |
-| Journalism | Verify facts independently; follow publication AI policies |
+Current tone: [formal/academic/casual]
+Content type: [blog post/essay/technical docs/email]
+```
 
-### When in Doubt
+### For Writing New Content
 
-**Default to disclosure.** Many contexts now accept AI-assisted writing when disclosed. Concealment carries greater risk than transparency.
+Ask Claude to:
+```
+Write a [content type] about [topic] using humanize-writing principles.
 
-## Limitations Acknowledgment
+Target audience: [describe]
+Tone: [describe]
+```
 
-**What this skill can achieve:**
-- Measurably improve writing variety and engagement
-- Reduce formulaic, generic patterns
-- Develop more distinctive voice
-- Make prose read more naturally
+## The Humanization Process
 
-**What this skill cannot guarantee:**
-- Complete evasion of AI detection (no technique can)
-- That improved writing won't still be flagged by detectors
-- That detectors won't evolve to identify new patterns
-- That all "AI tells" are actually AI-exclusive
+### Phase 1: Identify AI Patterns
 
-> **Important:** Research shows AI detectors have 10-20% false positive rates, higher for non-native English speakers and formal academic writing. Legitimate formal prose (clear structure, proper grammar, explicit transitions) can trigger false positives. This skill improves quality, not detection evasion.
+Scan for high-risk vocabulary and structures:
+
+- **Transition overuse**: "Furthermore," "In conclusion," "It's important to note," "It's worth mentioning"
+- **Hedging language**: "arguably," "one could say," "it's possible that," "tend to," "generally," "tend"
+- **Marketing clichés**: "revolutionize," "game-changing," "innovative," "next-generation," "cutting-edge," "state-of-the-art"
+- **Passive voice density**: >30% passive constructions in a paragraph
+- **Question openings**: >1 rhetorical question per 500 words
+- **Overexplained transitions**: "To further illustrate this point," "Building on this idea"
+
+### Phase 2: Apply Humanization Techniques
+
+#### Vocabulary Layer
+
+Replace AI vocabulary with human equivalents:
+- "facilitate" → "help," "make it easier"
+- "leverage" → "use," "take advantage of"
+- "utilize" → "use"
+- "paramount" → "critical," "crucial," "essential"
+- "illuminate" → "show," "explain," "reveal"
+- "synthesize" → "combine," "pull together," "merge"
+- "conceptualize" → "imagine," "think of," "picture"
+
+#### Sentence Structure Layer
+
+Vary sentence patterns:
+- Mix short punchy sentences with longer flowing ones
+- Alternate between active and passive voice (aiming for 70%+ active)
+- Break up topic-first patterns: Don't always start with the subject
+- Use occasional fragments for emphasis
+
+#### Rhythm & Voice Layer
+
+Introduce human speech patterns:
+- Occasional contractions ("don't," "it's," "we're") in appropriate contexts
+- Conversational markers: "Look," "Here's the thing," "Actually," "So"
+- Personal perspective: "I notice that," "In my experience," "I've found"
+- Concrete examples over abstractions
+- Direct address to reader when appropriate
+
+**Colloquialisms (Use Sparingly):**
+- Casual: "honestly," "basically," "like," "you know"
+- Digital: "tbh," "idk," "ngl" (only for very informal content)
+- Emphatic: "totally," "absolutely," "for real"
+
+**Humor Injection (When Appropriate):**
+- Self-deprecating asides: "(I learned this the hard way)"
+- Mild exaggeration: "about a million times"
+- Unexpected specificity: "the 37th email that day"
+- Rule: Max 1-2 humor attempts per 500 words; never force it
+
+#### Writer Mimicry Mode
+
+To match a specific author's style:
+```
+Analyze [Author]'s writing for:
+1. Average sentence length
+2. Vocabulary tier (simple/complex)
+3. Personal pronoun usage
+4. Signature phrases or structures
+5. Humor style (if any)
+
+Then apply these patterns to the target text.
+```
+
+### Phase 3: Validate Against Checklist
+
+Before finalizing, check:
+
+- ✓ No transitions in first sentence of paragraphs
+- ✓ Active voice dominates (70%+)
+- ✓ Varies sentence length (3-5 word to 20+ word sentences mixed)
+- ✓ No paragraph opens with "It is" or "There are"
+- ✓ Hedging language <5% of total words
+- ✓ No repeated phrases within 500 words
+- ✓ Reads naturally when read aloud
+- ✓ Personal voice present (pronouns, direct address)
+- ✓ No generic enthusiasm ("exciting," "amazing," "incredible" used sparingly)
+- ✓ Clichés replaced with specific descriptions
+
+## Validation Checklist (12-Point Scoring)
+
+Use this to verify humanization quality:
+
+### Structure (4 points)
+- [ ] No paragraph begins with transition word or "It is/There are"
+- [ ] Sentence variety present (short and long mixed)
+- [ ] Active voice dominates (70%+)
+- [ ] Paragraph length varies
+
+### Vocabulary (3 points)
+- [ ] Hedging language minimal (<5% of text)
+- [ ] No clichés (checked against blacklist)
+- [ ] Technical terms explained when needed, but terminology specific
+
+### Voice (3 points)
+- [ ] Personal perspective evident (pronouns used appropriately)
+- [ ] Conversational elements present (not excessive)
+- [ ] No generic enthusiasm (amazing, incredible, exciting <3 uses total)
+
+### Readability (2 points)
+- [ ] Reads naturally when read aloud
+- [ ] Clear connections between ideas
+- [ ] No repeated phrases within 500 words
+
+**Score**: 12 points total. Aim for 10+.
+
+## Content-Type Specific Guidance
+
+### Blog Posts
+Target: 60-70% active voice, conversational tone, personal perspective welcome
+
+Humanization focus:
+- Open with specific observation, not broad generalization
+- Use "I discovered," "I realized" instead of "Research shows"
+- Specific examples before abstract principles
+- Direct reader engagement ("here's why this matters to you")
+
+### Academic/Technical Writing
+Target: 75%+ active voice, formal but clear, expert without pretense
+
+Humanization focus:
+- Replace "It can be argued" with direct statement: "This suggests"
+- Avoid "one could say" — just say it
+- Use "I," "we," and "you" appropriately
+- Technical terms stay, but explain them clearly
+- Show your reasoning process, not just conclusions
+
+### Emails
+Target: Natural conversation, directness, personality
+
+Humanization focus:
+- First sentence answers: Why am I reading this?
+- Clear ask/call-to-action (not buried in hedging)
+- Contractions encouraged
+- Conversational openers fine ("Hope you're doing well")
+
+### Product/Marketing Copy
+Target: Enthusiasm without clichés, benefit-focused, specific
+
+Humanization focus:
+- Replace "revolutionary" with specific benefit
+- "Game-changing" → describe the actual change
+- "Next-generation" → "newly built," "recent"
+- Concrete details over superlatives
+
+## Common AI Tells & Replacements
+
+| AI Tell | Better Alternative |
+|---------|-------------------|
+| "In conclusion" | (Just state it. End naturally.) |
+| "Furthermore" | "Also," "Plus," or just continue |
+| "It is important to note" | Delete this. State the fact. |
+| "arguably" | Delete or commit to statement |
+| "one could say" | Say it directly |
+| "tend to" | Be specific: "often," "usually," or specific percentage |
+| "It's worth mentioning" | Delete. Mention it if it's worth it. |
+| "revolutionary" | Describe actual change |
+| "paradigm shift" | Use specific change description |
+| "cutting-edge" | "Recent," "newly developed," be specific |
+| "Interestingly" | Show why it's interesting through detail |
+| "As mentioned previously" | Reference specifically or delete |
+| "In this regard" | Delete. Connect idea directly. |
+
+## Workflow Examples
+
+### Example 1: Blog Post Analysis
+
+**Original (AI-generated):**
+> "In conclusion, it's important to note that leveraging social media platforms can facilitate meaningful engagement with target audiences. Furthermore, this approach can revolutionize how companies conceptualize customer relationships. One could argue that this represents a paradigm shift in marketing strategy."
+
+**Humanized:**
+> "So here's what I'm getting at: use social media to actually talk to your customers. Most companies treat it like a broadcast channel. But the best ones treat it like a conversation. That changes everything about how you build relationships."
+
+**Changes made:**
+- Removed: "In conclusion," "it's important to note," "leverage," "facilitate," "revolutionize," "conceptualize," "paradigm shift," "one could argue"
+- Added: Personal voice ("I'm getting at," "here's what"), contractions, specific observation
+- Changed: Generic statement → concrete scenario
+
+### Example 2: Email Humanization
+
+**Original:**
+> "It is worth mentioning that we have identified several opportunities for optimization regarding your current implementation. The aforementioned strategies could facilitate improved performance metrics. We would appreciate the opportunity to discuss this matter further at your earliest convenience."
+
+**Humanized:**
+> "We've spotted a few ways to make your setup faster. I'd love to walk you through them—should take 15 minutes. When works best for you this week?"
+
+**Changes made:**
+- Removed: "It is worth mentioning," "aforementioned," "facilitate," "appreciate the opportunity," "at your earliest convenience"
+- Added: Specificity, directness, urgency, personal tone
 
 ## Quantitative Thresholds
 
-Use these thresholds when assessing text:
+Use these metrics to guide humanization:
 
-| Metric | Acceptable | Warning | Revise |
-|--------|------------|---------|--------|
-| Transitional phrases per 1000 words | 0-3 | 4-6 | 7+ |
-| Corporate buzzwords per 1000 words | 0-2 | 3-5 | 6+ |
-| Trailing participial phrases per page | 0-2 | 3-4 | 5+ |
-| Semicolons per page | 0-2 | 3-4 | 5+ |
-| Paragraph length variance (SD) | >30 | 15-30 | <15 |
-| Sentence length range (max-min) | >25 words | 15-25 | <15 |
+- **Passive voice**: Target <30%. Measure: Count passive constructions, divide by total sentences.
+- **Hedging density**: Target <5%. Measure: Count hedging words (arguably, tend to, generally, seem, appear, may), divide by total words.
+- **Sentence variety**: Target 3-5 different lengths represented in each 5-sentence chunk.
+- **Repetition**: Zero repeated phrases within 500 words.
+- **Transitions per paragraph**: 0-1 transitions opening paragraphs (not counting "and," "but," "so").
+- **AI vocabulary**: Zero instances of blacklisted high-risk terms.
 
-## Priority Ordering
+## When NOT to Humanize Everything
 
-Address issues in this order (highest impact first):
+Some content appropriately stays formal:
 
-1. **Vocabulary blacklist** - Remove flagged words/phrases (10 min)
-2. **Trailing participial phrases** - Fix ", creating/demonstrating/suggesting" patterns (5 min)
-3. **Sentence length variance** - Add short punchy sentences, vary rhythm (10 min)
-4. **Voice markers** - Add rhetorical questions, contractions, personality (10 min)
-5. **Paragraph variance** - Merge/split for length variation (5 min)
-6. **Fine polish** - Read aloud, minor adjustments (5 min)
+- Legal documents (maintain precision over personality)
+- Formal academic papers (maintain scholarly register)
+- Technical specifications (clarity over voice)
+- Official announcements (consistency over personality)
 
-## Core Framework: Three Dimensions of Writing Quality
+In these cases, selectively humanize: remove obvious clichés and excess hedging, but keep appropriate formality.
 
-### Dimension 1: Lexical Precision (Word Choice)
+## Integration Tips
 
-Generic, formulaic writing overuses certain vocabulary. See `references/ai-vocabulary-list.md` for the comprehensive list.
+### For Claude Web Chat
+1. Share this system as Project Knowledge
+2. Reference it by name: "Use humanize-writing principles..."
+3. Paste content and ask for analysis or improvement
+4. Iterate with specific focus areas
 
-**Common weakness markers:**
-- Transitional padding: furthermore, moreover, additionally, consequently, nevertheless
-- Corporate buzzwords: leverage, optimize, streamline, robust, scalable, synergy
-- Hedging language: it's worth noting, it's important to consider, arguably
-- Grandiose descriptors: groundbreaking, revolutionary, transformative, pivotal, paramount
-- Journey metaphors: embark, navigate, delve, explore, uncover
-
-**Transformation approach:**
-- Replace with simpler, concrete alternatives
-- Remove unnecessary qualifiers entirely
-- Use specific nouns over abstract ones
-- Prefer common verbs over latinate alternatives
-
-### Dimension 2: Structural Variety (Organization)
-
-Formulaic writing follows predictable, rigid structures.
-
-**Common structural weaknesses:**
-- Uniform paragraph length (all ~100 words)
-- Rigid topic-sentence-support-conclusion format per paragraph
-- Lists/bullets appearing mid-essay
-- Long, summarizing conclusions starting with "In conclusion/Overall/In summary"
-- Excessive parallel construction
-- "From X to Y" prepositional patterns
-- Present-participial trailing phrases: "X verb Y, creating Z"
-
-**Transformation approach:**
-- Vary paragraph length dramatically (some 2 sentences, some 8)
-- Bury topic sentences occasionally
-- Let some paragraphs end without conclusion
-- Merge related short paragraphs
-- Break long paragraphs at unexpected points
-
-### Dimension 3: Stylistic Distinctiveness (Rhythm & Voice)
-
-Generic writing lacks natural prosodic variation and personal voice.
-
-**Common stylistic weaknesses:**
-- Uniform sentence length (medium sentences only)
-- Semicolon-heavy compound sentences
-- Missing sentence fragments
-- Absence of rhetorical questions
-- Overly balanced/hedged arguments
-- Generic, neutral tone throughout
-- Missing contractions in casual contexts
-- Perfect grammar everywhere
-
-**Transformation approach:**
-- Vary sentence length intentionally (short. Long flowing ones that build momentum. Medium.)
-- Add occasional fragments for emphasis
-- Include rhetorical questions where natural
-- Use contractions in appropriate contexts
-- Allow deliberate minor imperfections
-- Insert genuine opinion/perspective
-
-## Quality Improvement Process
-
-### Step 1: Diagnostic Analysis
-
-Scan input text and identify:
-1. Word-level quality issues (overused vocabulary, imprecise terms)
-2. Structural uniformity score (paragraph length variance)
-3. Sentence rhythm analysis (length distribution)
-4. Voice presence (personality markers, opinion, specificity)
-
-### Step 2: Vocabulary Transformation
-
-For each flagged word/phrase:
-1. Assess if removal preserves meaning (often: just delete)
-2. If needed, substitute with concrete alternative
-3. Prefer Anglo-Saxon over Latinate vocabulary
-4. Replace abstractions with specifics
-
-**Example transformations:**
-- "leverage" → "use"
-- "utilize" → "use"
-- "facilitate" → "help" or "enable"
-- "it's worth noting that" → [delete]
-- "in the realm of" → "in"
-- "a multitude of" → "many" or "several"
-- "groundbreaking" → describe specifically what changed
-- "navigate the complexities" → "work through" or "handle"
-
-### Step 3: Structural Restructuring
-
-1. Map existing paragraph lengths
-2. Identify uniform sections
-3. Apply variance:
-   - Split one long paragraph into 2-3 shorter ones
-   - Merge 2-3 related short paragraphs
-   - Relocate topic sentences
-4. Remove or shorten summarizing conclusions
-5. Eliminate unnecessary transitional phrases between paragraphs
-
-### Step 4: Rhythm & Voice Injection
-
-1. Find 3 consecutive medium-length sentences → replace middle with short or long
-2. Identify passive constructions → activate where natural
-3. Locate hedging clusters → commit to positions where appropriate
-4. Add contractions in conversational sections
-5. Insert occasional colloquialisms appropriate to context
-6. Consider adding parenthetical asides, em-dashes, or unconventional punctuation
-
-### Step 5: Authenticity Check
-
-Before finalizing, verify:
-- Does it sound like a specific person, not a committee?
-- Are there moments of genuine opinion or personality?
-- Does the rhythm feel varied when read aloud?
-- Would the reader believe a human wrote this quickly, imperfectly?
-
-## Cultural & Linguistic Considerations
-
-### Important Caveat
-
-Many patterns identified as "AI tells" also appear in:
-- **Non-native English writing:** Formal constructions, predictable transitions, limited colloquialisms
-- **Academic training:** Writers taught formal structures may naturally produce "AI-like" patterns
-- **Cultural rhetorical traditions:** Some cultures prefer explicit transitions, balanced arguments, formal register
-- **Technical writing conventions:** Fields like legal, medical, scientific writing have specific norms
-
-### Avoid False Assumptions
-
-Before "correcting" writing:
-1. Consider the writer's background and training
-2. Recognize that "natural" varies by culture and context
-3. Don't assume formal = artificial
-4. Understand that detection tools have higher false positive rates for diverse writers
-
-### Adaptation Guidance
-
-- For non-native writers: Focus on vocabulary precision and rhythm; preserve cultural voice
-- For technical contexts: Maintain necessary formality while varying structure
-- For global audiences: Balance accessibility with cultural authenticity
-
-## Content-Type Specific Guidelines
-
-### Time Investment Estimates
-
-| Task | Quick Pass | Thorough Edit | Full Voice Development |
-|------|------------|---------------|------------------------|
-| 500 words | 10-15 min | 30-45 min | 1-2 hours |
-| 1000 words | 20-30 min | 60-90 min | 2-4 hours |
-| 2500 words | 45-60 min | 2-3 hours | Half day |
-
-*Note: Full voice development is an ongoing process requiring multiple drafts and feedback cycles.*
-
-### Technical/Professional Writing
-- Maintain precision while varying rhythm
-- Replace buzzwords with specific technical terms
-- Allow some conversational tone in explanations
-- Keep contractions minimal but not absent
-- Preserve necessary formality for credibility
-- **Time factor:** Often requires less rhythm work; focus on vocabulary
-
-### Creative/Narrative Writing
-- Maximize sentence length variation
-- Embrace fragments and non-standard punctuation
-- Inject distinctive voice markers
-- Allow rule-breaking for effect
-- Develop character-specific voices in dialogue
-- **Time factor:** Voice development takes longest here
-
-### Academic Writing
-
-**Important:** Academic writing has legitimate formal conventions that may trigger AI detectors. Don't "humanize" these:
-
-**Legitimate academic patterns (KEEP):**
-- "We present/propose/demonstrate" - standard research paper language
-- "This paper introduces/addresses" - appropriate self-reference
-- Formal transitions between major sections
-- Explicit structure (numbered sections, clear headings)
-- Evidence-based hedging ("results suggest", "data indicates")
-- Citation-heavy prose
-
-**Patterns to improve:**
-- Corporate buzzwords (leverage, utilize, synergy) - replace with precise terms
-- Empty hedging ("it's worth noting") - delete or replace with evidence
-- Trailing participials - restructure into separate sentences
-- Uniform paragraph/sentence length - add variance
-
-**Academic-specific guidance:**
-- Preserve formal register while varying rhythm
-- Replace generic hedging with evidence-based qualifiers
-- Maintain structure but vary paragraph length
-- Add rhetorical questions in Discussion sections (appropriate for engagement)
-- Use contractions sparingly in informal subsections only
-- Follow discipline-specific citation conventions
-- **Time factor:** 45-90 min per 2500 words; check institution AI policies
-
-### Marketing/Persuasive Writing
-- Replace grandiose claims with concrete benefits
-- Use direct, active voice
-- Vary sentence length for impact
-- Add personality without losing credibility
-- Test with target audience when possible
-- **Time factor:** Often tight deadlines; focus on highest-impact changes
-
-### Journalism/Reporting
-- Prioritize clarity and accuracy over style
-- Verify all facts independently regardless of source
-- Follow publication AI-use policies
-- Maintain objectivity while improving readability
-- **Time factor:** Breaking news = minimal; features allow more polish
+### Best Practices
+- **Be specific about content type** — Different writing has different standards
+- **Provide context** — Audience and purpose guide humanization strategy
+- **Iterate** — First pass removes obvious AI tells; second pass refines voice
+- **Read aloud** — Ultimate test is whether it sounds natural when spoken
+- **Keep meaning** — Humanization preserves all original information and intent
 
 ## Reference Files
+- `references/ai-vocabulary-list.md`: Comprehensive blacklist of AI words
+- `references/content-type-guides.md`: Detailed guides for Blogs, Emails, etc.
+- `references/sentence-patterns.md`: Sentence pattern analysis
+- `references/rhythm-techniques.md`: Advanced rhythm techniques
+- `references/validation-checklist.md`: Full validation rubric
 
-- `references/ai-vocabulary-list.md` - Comprehensive word/phrase blacklist with alternatives
-- `references/sentence-patterns.md` - Structural formulas to avoid and alternatives
-- `references/rhythm-techniques.md` - Methods for achieving natural prosodic variation
-- `references/validation-checklist.md` - Pre-publication authenticity verification
+## Ethical Framework
+- **Do:** Use this to improve clarity, engagement, and personal voice.
+- **Do Not:** Use this to deceive about authorship in academic or regulated contexts where disclosure is required.
+---
 
-## Measuring Effectiveness
-
-### Quality Metrics (Recommended)
-
-1. **Reader perception survey**
-   - Does it feel authentic?
-   - Is the voice distinctive?
-   - Does it engage you?
-   - Would you guess this is AI-assisted?
-
-2. **Structural analysis**
-   - Paragraph length variance (SD > 30 words = good)
-   - Sentence length range (> 25 words range = good)
-   - Vocabulary diversity (unique/total > 40%)
-
-3. **Editorial review**
-   - Does voice remain consistent?
-   - Are improvements natural?
-   - Is meaning preserved?
-
-### Detection Tool Scores (Use with Caution)
-
-- AI detection tools can provide feedback but have limitations
-- False positive rates: 10-20% (higher for non-native English)
-- Accuracy varies by detector and model used for generation
-- Do not optimize solely for detection scores
-- Quality improvement matters more than evasion
-
-### Success Indicators
-
-- Reading aloud sounds natural
-- Specific details replace abstractions
-- Personality emerges without forcing
-- Structure varies meaningfully
-- Word choices feel precise
-
-## Anti-Patterns to Avoid
-
-**Do NOT:**
-- Simply run text through a paraphraser (creates new generic patterns)
-- Replace all flagged words mechanically (sounds unnatural)
-- Make all sentences short (overcorrection)
-- Add random errors for "authenticity" (obviously fake)
-- Strip all structure (becomes incoherent)
-- Optimize solely for detection evasion (wrong goal)
-- Ignore context and audience needs
-- Remove all formality from technical writing
-- Sacrifice clarity for "voice"
-
-**DO:**
-- Make targeted, thoughtful substitutions
-- Preserve the writer's intended meaning
-- Inject personality appropriate to context
-- Vary interventions naturally
-- Read output aloud for rhythm check
-- Disclose AI assistance when appropriate
-- Consider reader expectations
-- Maintain genre-appropriate conventions
-- Balance authenticity with clarity
+**System Version**: Web Integration Format  
+**Updated**: December 2025  
+**For use**: Claude.ai Web Interface  
+**Format**: Project Knowledge compatible
