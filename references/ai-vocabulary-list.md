@@ -335,3 +335,142 @@ These transitions appear 10-200x more frequently in AI text than human text.
 ## Detection Evolution Note
 
 > **2024-2025 Update:** The word "delve" was heavily flagged by detectors in 2023 but usage has decreased. Detectors now focus on combinations of patterns rather than single words. A single flagged word rarely triggers detection; clusters of 5+ patterns per page raise flags.
+
+---
+
+## Punctuation Antipatterns (2024-2025 Research)
+
+These punctuation patterns are strong AI detection signals based on Cambridge University 2024 research and Originality.ai detection data.
+
+### Em-Dash Overuse
+**Pattern:** Excessive use of long dashes (—) to break up sentences or add dramatic pauses.
+
+| AI Pattern | Better Alternative |
+|------------|-------------------|
+| "The solution — which many overlook — is simple" | "The solution, which many overlook, is simple" |
+| "We need to act — now" | "We need to act now." |
+| "This approach — unlike others — works" | "Unlike other approaches, this works" |
+
+**Threshold:** Maximum 1 em-dash per 500 words. Prefer commas, periods, or restructuring.
+
+### Curly Quotation Marks
+**Pattern:** ChatGPT substitutes straight quotes for typographer's curly quotes.
+
+| AI Pattern | Check For |
+|------------|-----------|
+| "quote" (curly) | Most human text uses straight quotes: "quote" |
+| 'apostrophe' (curly) | Human text: 'apostrophe' |
+
+**Note:** This is a subtle tell; context dependent.
+
+### Consistent Oxford Comma
+**Pattern:** AI consistently uses Oxford commas in every list, every time.
+
+| AI Pattern | Human Variation |
+|------------|-----------------|
+| "red, white, and blue" (always) | Sometimes "red, white and blue" |
+| "apples, oranges, and bananas" | Mix of styles is human |
+
+**Guidance:** Humans are inconsistent. Occasional variation is authentic.
+
+### Paragraph Starters (Cambridge 2024)
+**Pattern:** AI frequently starts paragraphs with specific markers followed by a comma.
+
+| High-Risk Starters | Better Alternative |
+|--------------------|-------------------|
+| "However, ..." | Integrate "but" mid-sentence or just state the contrast |
+| "Moreover, ..." | "Also" or just continue |
+| "Overall, ..." | Delete. State the conclusion directly. |
+| "Furthermore, ..." | "And" or delete |
+| "Additionally, ..." | "Also" or delete |
+| "Importantly, ..." | Delete. If it's important, the content shows it. |
+
+**Threshold:** Zero paragraphs should start with these markers.
+
+### Numbered Lists with Colons
+**Pattern:** AI overuses "1. Item: Description" format with colons after each item.
+
+| AI Pattern | Human Pattern |
+|------------|--------------|
+| "1. Focus: The key is concentration" | "1. Focus — the key is concentration" or prose |
+| "2. Speed: Work faster" | "2. Speed matters for..." |
+
+**Guidance:** Vary list formatting. Not every item needs a colon structure.
+
+### Pleonasms (Unnecessary Words)
+**Pattern:** AI adds unnecessary words that repeat meaning.
+
+| Pleonasm | Fix |
+|----------|-----|
+| "true fact" | "fact" |
+| "advance warning" | "warning" |
+| "free gift" | "gift" |
+| "past history" | "history" |
+| "final outcome" | "outcome" |
+| "completely eliminate" | "eliminate" |
+| "absolutely essential" | "essential" |
+| "mutual cooperation" | "cooperation" |
+| "close proximity" | "proximity" or "nearby" |
+| "end result" | "result" |
+
+### Tautologies (Saying the Same Thing Twice)
+**Pattern:** AI restates the same concept in different words.
+
+| Tautology | Fix |
+|-----------|-----|
+| "come together to unite" | "unite" |
+| "plan ahead for the future" | "plan" |
+| "basic fundamentals" | "basics" or "fundamentals" |
+| "repeat again" | "repeat" |
+| "join together" | "join" |
+| "collaborate together" | "collaborate" |
+| "revert back" | "revert" |
+| "consensus of opinion" | "consensus" |
+| "general overview" | "overview" |
+
+---
+
+## Burstiness Antipatterns (2024-2025)
+
+AI lacks natural sentence length variation ("burstiness"). Human writing mixes short and long sentences unpredictably.
+
+### Sentence Length Uniformity
+**Pattern:** AI produces sentences of similar length throughout.
+
+| AI Pattern | Human Pattern |
+|------------|--------------|
+| 15-18 words per sentence consistently | Mix of 4-word and 25-word sentences |
+| No fragments | Occasional fragments for emphasis |
+| All complete sentences | "Not always. Sometimes fragments." |
+
+**Fix:**
+- Add very short sentences (3-5 words) for punch
+- Use occasional fragments
+- Vary dramatically: short, medium, long, short
+
+### Perplexity (Predictability)
+**Pattern:** AI text is highly predictable; each word follows logically from the last.
+
+**Human characteristic:** Include unexpected word choices, tangents, specific examples that break patterns.
+
+---
+
+## Multi-syllable/Latin Word Overuse (Cambridge 2024)
+
+AI overuses Latin-root and multi-syllable words beyond expected levels.
+
+| AI Preference | Human Alternative |
+|---------------|-------------------|
+| "utilize" | "use" |
+| "demonstrate" | "show" |
+| "facilitate" | "help" |
+| "implement" | "do" |
+| "conceptualize" | "imagine" |
+| "approximately" | "about" |
+| "subsequently" | "then" |
+| "predominant" | "main" |
+| "multifaceted" | "complex" |
+| "comprehensive" | "full" or "complete" |
+
+**Threshold:** Prefer simpler words. Multi-syllable words should be <20% of vocabulary.
+

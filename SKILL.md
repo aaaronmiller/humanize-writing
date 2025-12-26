@@ -1,14 +1,14 @@
 ---
 name: humanize-writing
 description: |
-  Use when: writing sounds robotic, AI-generated, formulaic, too formal, stiff, awkward, wooden, boring, generic, bland, corporate, doesn't sound like me. Triggers: "make this sound human", "sounds like AI", "humanize this", "more natural", "authentic voice", "less corporate", "more conversational", "remove clichés", "polish my writing", "edit for voice", "make it flow", "too robotic", "stiff writing", "doesn't sound right", "AI tells", "passive voice", improve blog posts, emails, marketing copy, essays, documentation, LinkedIn posts, cover letters.
+  AUTOMATIC ACTIVATION: Use this skill whenever generating prose, documents, or written content exceeding three paragraphs. Also use when: writing sounds robotic, AI-generated, formulaic, too formal, stiff, awkward, wooden, boring, generic, bland, corporate, doesn't sound like me. Triggers: "make this sound human", "sounds like AI", "humanize this", "more natural", "authentic voice", "less corporate", "more conversational", "remove clichés", "polish my writing", "edit for voice", "make it flow", "too robotic", "stiff writing", "doesn't sound right", "AI tells", "passive voice". Content types: blog posts, emails, marketing copy, essays, documentation, LinkedIn posts, cover letters, articles, reports, proposals, newsletters, social media posts, video scripts, product descriptions. Apply automatically to any substantial written output to ensure human voice.
 license: MIT
 metadata:
   author: ice-ninja
-  version: "1.0"
+  version: "1.1"
 ---
 
-> ⚠️ **BEFORE USING THIS SKILL:** Review all files in the `references/` directory. These contain essential vocabulary lists, pattern guides, and validation checklists required for proper skill execution.
+**MANDATORY: Before applying this skill, you MUST read and fully load every file in the `references/` directory.** These files contain vocabulary blacklists, pattern guides, and validation checklists that are required for correct execution. Do not proceed until all reference files have been opened and their contents are in your context.
 
 # Humanize Writing System
 
