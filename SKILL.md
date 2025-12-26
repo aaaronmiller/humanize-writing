@@ -1,11 +1,18 @@
 ---
 name: humanize-writing
-description: Transform AI-generated writing into natural, human-like prose by removing AI patterns, clichés, and awkward constructs. Use when writing content that needs to sound authentically human, avoid robotic phrasing, improve tone and voice, or detect and eliminate AI tells (overused transitions, passive voice patterns, formal hedging language). Includes AI vocabulary blacklists, sentence pattern guides, rhythm techniques, and validation checklists for all content types.
+description: |
+  Use when: writing sounds robotic, AI-generated, formulaic, too formal, stiff, awkward, wooden, boring, generic, bland, corporate, doesn't sound like me. Triggers: "make this sound human", "sounds like AI", "humanize this", "more natural", "authentic voice", "less corporate", "more conversational", "remove clichés", "polish my writing", "edit for voice", "make it flow", "too robotic", "stiff writing", "doesn't sound right", "AI tells", "passive voice", improve blog posts, emails, marketing copy, essays, documentation, LinkedIn posts, cover letters.
+license: MIT
+metadata:
+  author: ice-ninja
+  version: "1.0"
 ---
+
+> ⚠️ **BEFORE USING THIS SKILL:** Review all files in the `references/` directory. These contain essential vocabulary lists, pattern guides, and validation checklists required for proper skill execution.
 
 # Humanize Writing System
 
-Transform AI-generated or formulaic writing into natural, human-like prose that reads as authentically authored.
+Turn robotic AI prose into writing that sounds like you wrote it.
 
 ## Core Framework
 
@@ -17,7 +24,7 @@ This system removes three categories of AI tells:
 2. **Pattern tells** - Repetitive sentence structures, excessive passive voice, artificial rhythm
 3. **Tone tells** - Overly formal register, lack of personal voice, generic enthusiasm
 
-The result maintains meaning, accuracy, and professionalism while sounding genuinely human-written.
+Your meaning stays intact. It just sounds like a person wrote it.
 
 ## Quick Start
 
@@ -58,7 +65,7 @@ Tone: [describe]
 
 ### Phase 1: Identify AI Patterns
 
-Scan for high-risk vocabulary and structures:
+Hunt for these red flags:
 
 - **Transition overuse**: "Furthermore," "In conclusion," "It's important to note," "It's worth mentioning"
 - **Hedging language**: "arguably," "one could say," "it's possible that," "tend to," "generally," "tend"
@@ -71,7 +78,7 @@ Scan for high-risk vocabulary and structures:
 
 #### Vocabulary Layer
 
-Replace AI vocabulary with human equivalents:
+Swap AI words for human ones:
 - "facilitate" → "help," "make it easier"
 - "leverage" → "use," "take advantage of"
 - "utilize" → "use"
@@ -90,7 +97,7 @@ Vary sentence patterns:
 
 #### Rhythm & Voice Layer
 
-Introduce human speech patterns:
+Make it sound like talking:
 - Occasional contractions ("don't," "it's," "we're") in appropriate contexts
 - Conversational markers: "Look," "Here's the thing," "Actually," "So"
 - Personal perspective: "I notice that," "In my experience," "I've found"
@@ -110,7 +117,7 @@ Introduce human speech patterns:
 
 #### Writer Mimicry Mode
 
-To match a specific author's style:
+Want to sound like a specific writer? Analyze their patterns:
 ```
 Analyze [Author]'s writing for:
 1. Average sentence length
@@ -124,7 +131,7 @@ Then apply these patterns to the target text.
 
 ### Phase 3: Validate Against Checklist
 
-Before finalizing, check:
+Run through this before shipping:
 
 - ✓ No transitions in first sentence of paragraphs
 - ✓ Active voice dominates (70%+)
@@ -250,7 +257,7 @@ Humanization focus:
 
 ## Quantitative Thresholds
 
-Use these metrics to guide humanization:
+Numbers to hit:
 
 - **Passive voice**: Target <30%. Measure: Count passive constructions, divide by total sentences.
 - **Hedging density**: Target <5%. Measure: Count hedging words (arguably, tend to, generally, seem, appear, may), divide by total words.
@@ -261,14 +268,14 @@ Use these metrics to guide humanization:
 
 ## When NOT to Humanize Everything
 
-Some content appropriately stays formal:
+Not everything needs personality:
 
 - Legal documents (maintain precision over personality)
 - Formal academic papers (maintain scholarly register)
 - Technical specifications (clarity over voice)
 - Official announcements (consistency over personality)
 
-In these cases, selectively humanize: remove obvious clichés and excess hedging, but keep appropriate formality.
+For these, just cut the obvious clichés and excess hedging. Keep the formality.
 
 ## Integration Tips
 
